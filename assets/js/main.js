@@ -45,3 +45,17 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+document.getElementById('searchInput').addEventListener('input', function (event) {
+    const searchTerm = event.target.value.toLowerCase();
+    const pokemonItems = document.querySelectorAll('#pokemonList li');
+
+    pokemonItems.forEach(function (item) {
+        const pokemonName = item.querySelector('.name').textContent.toLowerCase();
+        if (pokemonName.includes(searchTerm)) {
+            item.style.display = '';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+});

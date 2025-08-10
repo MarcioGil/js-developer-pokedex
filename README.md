@@ -10,4 +10,7 @@ Essa melhoria torna a navegação mais prática e personalizada.
 
 ## Repositório
 
-Acesse o código fonte
+## Repositório
+
+Acesse o código fonte completo em:  
+[https://github.com/MarcioGil/javascript-developer-m1.git](https://github.com/MarcioGil/javascript-developer-m1.git)
